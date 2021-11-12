@@ -1,0 +1,9 @@
+//Sources/Cxlsxwriter/module.modulemap
+module CopenLDAP {
+    header "../../Headers/CopenLDAP-Bridging-Header.h"
+    /*header "/usr/local/include/xlsxwriter.h"*/
+    /*header "xlsxwriter.h"*/
+    link "ldap"
+    link "lber"
+    export *
+}
